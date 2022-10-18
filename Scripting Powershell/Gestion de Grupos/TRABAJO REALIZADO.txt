@@ -1,0 +1,22 @@
+
+[ ✔ ] 1º Script para Crear grupos a partir de un .csv 
+		-Exporto en un .csv los Grupos que he podido crear
+		-Compruebo que no existen Grupos con el mismo nombre ya creados en AD
+		-Introduzco TODOS los usuarios de mi "Tenant" a mi grupo (En este caso Departamento_IT, hay que hilar mas fino)
+[ ✔ ] 2º Script Asignar a un grupo múltiples usuarios
+		-Compruebo que los usuarios no estén ya asignados al grupo
+[ ✔ ] 3º Script para Borrar grupos filtrándolos a partir de un .csv 
+[ ✔ ] 4º Script que vacíe los grupos
+[ ✔ ] 5º Script para borrar Usuarios filtrandolos por un .csv
+[ X  ] 6º Script que lee de un .csv Lista de Usuarios y Grupos 
+			-Si existe el grupo, no lo intento crear
+			-Controlar si un usuario está ya asignado a un grupo
+			-Un usuario puede estar en múltiples grupos a la vez
+			
+			
+			1º Nombre del Fichero: "Crear_grupos.ps1"
+			2º Nombre del Fichero: "Asignar_Usuarios_a_Grupos.ps1
+			3º Nombre del Fichero: "Borrar_grupos.ps1"
+			4º Nombre del Fichero: "VaciarGrupos.ps1
+			5º Nombre del Fichero: "Borrar_usuarios_Grupo.ps1"
+			6º Nombre del Fichero:  Inconcluso
