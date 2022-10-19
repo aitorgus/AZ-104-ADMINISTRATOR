@@ -20,7 +20,7 @@
         $Grupos_actuales=get-azureadgroup
 
     #Realizamos la importación de los datos de los GRUPOS a dar de alta en Azure.
-        $GruposBorrar = Import-Csv -Path "C:\script\DIA14\GruposCreados.csv" -Delimiter ";"
+        $GruposBorrar = Import-Csv -Path "GruposCreados.csv" -Delimiter ";"
 
 
          foreach ( $grupo in $GruposBorrar ) {

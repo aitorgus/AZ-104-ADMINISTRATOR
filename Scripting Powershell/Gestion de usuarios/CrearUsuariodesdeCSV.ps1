@@ -1,8 +1,8 @@
 ﻿$Userpassword = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
 
-$UsuariosCreados = "C:\script\LogUsuariosCreados.csv"
+$UsuariosCreados = "LogUsuariosCreados.csv"
 #Realizamos la importación de los datos de los usuarios a dar de alta en Azure.
-$users = Import-Csv -Path "C:\script\TablaUsuarios.csv" -Delimiter ";"
+$users = Import-Csv -Path "TablaUsuarios.csv" -Delimiter ";"
 
 foreach ($usuarios in $users)
 {

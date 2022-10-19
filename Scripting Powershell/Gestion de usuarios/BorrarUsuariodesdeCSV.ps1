@@ -1,7 +1,7 @@
 ﻿#Lectura de los usuarios actuales:
 $usuarios_actuales=get-azureaduser
 
-$usuariosaBorrar = Import-Csv -Path "C:\script\LogUsuariosCreados.csv" -Delimiter ";"
+$usuariosaBorrar = Import-Csv -Path "LogUsuariosCreados.csv" -Delimiter ";"
 
 
 foreach ($usuarios in $usuariosaBorrar)  {

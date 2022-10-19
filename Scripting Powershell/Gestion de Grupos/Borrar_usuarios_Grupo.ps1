@@ -33,7 +33,7 @@
 
         }
         #Filtrando Usuarios del log
-        $usuariosAsignables = Import-Csv -Path "C:\script\DIA14\LogUsuariosCreados.csv" -Delimiter ";"
+        $usuariosAsignables = Import-Csv -Path "LogUsuariosCreados.csv" -Delimiter ";"
 
         #Consulto los usuarios de mi grupo
 

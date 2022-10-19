@@ -21,8 +21,8 @@
         $Grupos_actuales=get-azureadgroup
 
     #Realizamos la importación de los datos de los GRUPOS a dar de alta en Azure.
-        $Group = Import-Csv -Path "C:\script\DIA14\TablaGrupos.csv" -Delimiter ";"
-        $GruposCreados= "C:\script\DIA14\GruposCreados.csv"
+        $Group = Import-Csv -Path "TablaGrupos.csv" -Delimiter ";"
+        $GruposCreados= "GruposCreados.csv"
 
     foreach ( $grupo in $Group ) {
 

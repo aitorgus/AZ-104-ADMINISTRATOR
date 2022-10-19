@@ -1,6 +1,7 @@
 ﻿#Consulto los usuarios existentes 
 
 $usuarios_actuales=get-azureaduser
+get-AzureADGroupMember
 
 
     
